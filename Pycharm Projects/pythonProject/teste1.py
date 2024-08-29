@@ -1,0 +1,6 @@
+nome = input('Qual é o seu nome?')
+idade = input ('Quantos anos voce tem?')
+peso = input ('Qual é o seu peso?')
+nacionalidade = input ('De onde voce é?')
+time = input ('Qual time voce torce?')
+print('Prazer em te conhecer,',nome,'.','entao voce tem', idade, 'anos.', 'pesa', peso, 'kilos','e mora em', nacionalidade, 'e torce para o', time, '!')
