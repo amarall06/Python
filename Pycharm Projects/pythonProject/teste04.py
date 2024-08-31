@@ -1,0 +1,5 @@
+produto = (input('Digite o nome do produto aqui:'))
+preço = float(input('O produto custa:'))
+juros = preço + (preço*5/ 100)
+desconto = preço - (preço*15/ 100)
+print('O Produto custa RS{:.2f}, pagando a vista vai para RS{:.2f}, no cartão voce paga juros de 5%, ficando RS{:.2f}!'.format(preço,desconto,juros))
