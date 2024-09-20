@@ -1,4 +1,4 @@
-frase = input('Digite uma frase:')
+frase = input('Digite uma frase:').strip()
 frase = frase.lower()
 letras = frase.count('a')
 pa = frase.find('a')

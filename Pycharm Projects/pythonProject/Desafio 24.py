@@ -1,3 +1,2 @@
-city = input('Digite um nome de uma cidade:')
-city = 'Santo' in city
-print(f'false(nao tem) ou true(tem)?:{city}')
+city = input('Digite um nome de uma cidade:').strip()
+print(city[:5].upper() == 'SANTO')

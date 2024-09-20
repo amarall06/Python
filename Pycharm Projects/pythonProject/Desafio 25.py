@@ -1,3 +1,3 @@
-nome = input('Digite seu nome:')
-nome = 'Silva' in nome
-print(f'Tem Silva no nome?{nome} ')
+nome = input('Digite seu nome:').strip()
+nome = 'SILVA' in nome.upper()
+print(f'Tem Silva no nome?{nome}')
