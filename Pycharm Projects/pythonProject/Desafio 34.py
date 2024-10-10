@@ -1,3 +1,4 @@
+
 sal = float(input('Qual é o seu salario?:'))
 aum = sal + (sal * 10/100)
 novo = sal + (sal * 15/100)
