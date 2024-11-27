@@ -1,10 +1,8 @@
-valor = int(input('Qual é o valor do imovel?'))
-nome = str(input('Qual é o seu nome completo?'))
-salario = int(input('Quanto você ganha no mês?'))
-anos = int(input('Em quantos anos pretende pagar o Imovel?'))
-parc = valor // anos
-emprestimo = (parc % 30)
-if parc == emprestimo:
-    print('Parabéns o senhor(a) {}, o seu financiamento foi aceito!'.format(nome))
-else:
- print('Sentimos muito senhor(a), o seu financimento por negador por exceder os 30% do seu salario')
+imovel = float(input('Qual é o valor do imovel?'))
+salario = float(input('Salário do Comprador: R$'))
+anos = int(input('Quantos anos de financimento?'))
+min = 
+parc = imovel / (anos * 12)
+print('Para pagar a casa de R${:.2f} em {} anos'.format(imovel, anos), end='')
+print('A prestação será de {:.2f}'.format(parc))
+
