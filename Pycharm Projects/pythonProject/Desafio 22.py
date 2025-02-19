@@ -1,6 +1,0 @@
-nome = input('Digite seu nome completo:')
-print('Seu nome em maiusculo fica:{}'.format(nome.upper()))
-print('Seu nome em minusculo:{}'.format(nome.lower()))
-print('Quantas letras seu nome tem sem espaços:{}'.format(len(nome)- nome.count('')))
-dividido = nome.split()
-print('{} possui {} Letras'.format(dividido[0],len(dividido[0])))
